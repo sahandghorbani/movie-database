@@ -1,0 +1,41 @@
+.single-movie-con {
+  width: 80%;
+  margin: 32px auto;
+  span {
+    display: block;
+    margin-top: 32px;
+  }
+}
+
+.single-movie {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  gap: 1rem;
+  img {
+    border-radius: 12px;
+  }
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin: 18px;
+  p {
+    &:first-child {
+      font-weight: bold;
+    }
+  }
+}
+
+.movie-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.movie-stars {
+  li {
+    display: inline;
+    margin: 0 4px;
+  }
+}

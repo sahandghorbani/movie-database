@@ -1,0 +1,82 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+  }
+    .Movies-container{
+      width: 100%;
+      display:flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0 auto;
+    }
+  
+  .movie-items{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    /* gap: 1rem; */
+  }
+  
+  
+  .movie-items div h3{
+   font-weight: bolder;
+   margin: 10px ;
+   /* white-space: nowrap; */
+  }
+  
+  .Movies-container >*  {
+    width: 300px;
+    background-color: #F1F1F1;
+    border: 1px solid #C4C4C4;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transition: 0.3s;
+    border-radius: 5px; 
+    margin: 52px;
+    flex: 1;
+    border-radius:8px
+  }
+  
+    .detail-container{
+      display: flex;
+      flex-direction: column;
+      padding: 8px 4px;
+      justify-content: space-between;
+    }
+  
+    .detail-container h3 {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 22px;
+  
+      color: #000000;
+    }
+  
+    .detail-container  .time-calender:nth-child(2){
+      margin-left: 6px;
+    }
+     .Movies-container{
+      display:flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      /* width: 1000px; */
+      margin: 0 auto;
+    }
+  
+  
+    .Movies-container >*  img{
+      width:180px ;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+    }
+  
+    .time-calender{
+      color: #343434c4 ;
+       font-size: 12px;
+       display:flex;
+       margin-bottom: 54px ;
+       gap: 6px;
+    }
+  
+  
+  

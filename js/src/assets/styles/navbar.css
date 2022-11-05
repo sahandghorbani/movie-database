@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E2E2E2;
+    border-radius: 6px;
+    margin:12px 64px;
+    gap: 8rem;
+    /* padding: 8px; */
+  }
+  .navbar {
+    flex: 1
+  }
+  
+  .search-by-name {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  
+  .search-by-name input {
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+  }
+  
+  .backBtn {
+    cursor: pointer;
+    transition: all 0.15s linear;
+    margin: 12px ;
+    color: white;
+    width: 92px;
+    height: 33px;
+    border: none; 
+    background: #549DF2;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around
+  }
+  .backBtn p {
+    margin-right:18px
+  }
+  
+  button:hover {
+    background-color: white ;
+    color: black;
+  }
+  
+  .nav-detail-info {
+    display: flex  ;
+    gap: 1rem ;
+  }
+  
+  .nav-detail-info  h2{ 
+    align-content: center;
+    align-self: center;
+  }
